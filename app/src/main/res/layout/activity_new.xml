@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_fornew"/>
+
+    <EditText
+        android:id="@+id/editname_fornew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="蔬菜名称"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/editcity_fornew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="种植城市"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/editcategory_fornew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="蔬菜种类"
+        android:maxLines="1"
+        />
+
+    <Button
+        android:id="@+id/confirm_fornew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:layout_marginTop="15dp"
+        />
+</LinearLayout>
